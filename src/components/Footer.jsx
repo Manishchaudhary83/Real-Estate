@@ -6,7 +6,8 @@ export default function Footer() {
   return (
     <footer className="pt-10 px-4 md:px-20 lg:px-32 bg-gray-900 w-full" id="Footer">
       <div className="container mx-auto flex flex-col md:flex-row justify-between items-start gap-12">
-        {/* Logo & Description */}
+       
+
         <div className="w-full md:w-1/3">
           <img src={assets.logo_dark} alt="Logo" className="mb-4" />
           <p className="text-gray-400">
@@ -14,7 +15,8 @@ export default function Footer() {
           </p>
         </div>
 
-        {/* Company Links */}
+
+     
         <div className="w-full md:w-1/5">
           <h3 className="text-white text-lg font-bold mb-4">Company</h3>
           <ul className="flex flex-col gap-2 text-gray-400">
@@ -25,7 +27,7 @@ export default function Footer() {
           </ul>
         </div>
 
-        {/* Newsletter */}
+       
         <div className="w-full md:w-1/3">
           <h3 className="text-white text-lg font-bold mb-4">Subscribe to our newsletter</h3>
           <p className="text-gray-400 mb-4 max-w-80">
@@ -44,7 +46,7 @@ export default function Footer() {
         </div>
       </div>
 
-      {/* Footer Bottom */}
+    
       <div className="border-t border-gray-700 py-4 mt-10 text-center text-gray-500">
         Copyright 2026 © GreatStack. All Rights Reserved.
       </div>
