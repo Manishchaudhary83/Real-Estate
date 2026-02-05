@@ -11,15 +11,28 @@
   "dependencies": {
     "@n8n/chat": "^1.4.0-exp.0",
     "framer-motion": "^12.29.2",
-    "react": "^19.2.0",
-    "react-dom": "^19.2.0",
+    "react": "^19.2.4",
+    "react-dom": "^19.2.4",
     "react-toastify": "^11.0.5"
   },
   "devDependencies": {
-    "@vitejs/plugin-react": "^5.1.3",
+    "@vitejs/plugin-react": "^3.1.0",
     "autoprefixer": "^10.4.24",
     "postcss": "^8.5.6",
-    "tailwindcss": "^4.1.18",
-    "vite": "^7.2.4"
-  }
+    "tailwindcss": "^3.3.3",
+    "vite": "^4.5.9"
+  },
+  "description": "This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.",
+  "main": "eslint.config.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Manishchaudhary83/Real-Estate.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Manishchaudhary83/Real-Estate/issues"
+  },
+  "homepage": "https://github.com/Manishchaudhary83/Real-Estate#readme"
 }
